@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-​
+
 class Toggle extends Component {
     state = {
         visible: true
     }
-​
+
     handleToggle = () => {
         this.setState((prevState) => ({visible: !prevState.visible}))
     }
-​
+
     render(){
         return (
             <div>
@@ -18,5 +18,5 @@ class Toggle extends Component {
         )
     }
 }
-​
+
 export default Toggle;
